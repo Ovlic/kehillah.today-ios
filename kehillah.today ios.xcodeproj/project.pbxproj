@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A49ADCDC28BDCEFD00AE58F4 /* kehillah_today.html in Resources */ = {isa = PBXBuildFile; fileRef = A49ADCDB28BDCEFD00AE58F4 /* kehillah_today.html */; };
+		A49ADCDE28BDD90900AE58F4 /* dates.js in Resources */ = {isa = PBXBuildFile; fileRef = A49ADCDD28BDD90900AE58F4 /* dates.js */; };
 		A4D7F8AE28BDC992001C5336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7F8AD28BDC992001C5336 /* AppDelegate.swift */; };
 		A4D7F8B028BDC992001C5336 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7F8AF28BDC992001C5336 /* SceneDelegate.swift */; };
 		A4D7F8B228BDC992001C5336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7F8B128BDC992001C5336 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A49ADCDB28BDCEFD00AE58F4 /* kehillah_today.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = kehillah_today.html; sourceTree = "<group>"; };
+		A49ADCDD28BDD90900AE58F4 /* dates.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dates.js; sourceTree = "<group>"; };
 		A4D7F8AA28BDC992001C5336 /* kehillah.today ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kehillah.today ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D7F8AD28BDC992001C5336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D7F8AF28BDC992001C5336 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				A4D7F8AD28BDC992001C5336 /* AppDelegate.swift */,
 				A4D7F8AF28BDC992001C5336 /* SceneDelegate.swift */,
 				A4D7F8B128BDC992001C5336 /* ViewController.swift */,
+				A49ADCDD28BDD90900AE58F4 /* dates.js */,
+				A49ADCDB28BDCEFD00AE58F4 /* kehillah_today.html */,
 				A4D7F8B328BDC992001C5336 /* Main.storyboard */,
 				A4D7F8B628BDC993001C5336 /* Assets.xcassets */,
 				A4D7F8B828BDC993001C5336 /* LaunchScreen.storyboard */,
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49ADCDE28BDD90900AE58F4 /* dates.js in Resources */,
+				A49ADCDC28BDCEFD00AE58F4 /* kehillah_today.html in Resources */,
 				A4D7F8BA28BDC993001C5336 /* LaunchScreen.storyboard in Resources */,
 				A4D7F8B728BDC993001C5336 /* Assets.xcassets in Resources */,
 				A4D7F8B528BDC992001C5336 /* Main.storyboard in Resources */,
@@ -290,6 +298,7 @@
 				DEVELOPMENT_TEAM = WRA227JL28;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kehillah.today ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Kehillah.Today;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +327,7 @@
 				DEVELOPMENT_TEAM = WRA227JL28;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "kehillah.today ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Kehillah.Today;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
