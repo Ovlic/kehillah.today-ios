@@ -106,10 +106,11 @@
 
         <p id="credits" style="color:#aac; margin: 20px;" class="lines">
         <span>Created by B. Gill. Contact me at <a href="mailto: bgill2023@kehillahstudent.org"><span style="color: #aac">bgill2023@kehillahstudent.org</span></a>.</span><br>
+        <span>iOS app by J. Buck. Contact me at <a href="mailto: jbuck2026@kehillahstudent.org"><span style="color: #aac">jbuck2026@kehillahstudent.org</span></a>.</span><br>
         <span>Data sourced from the <a href="https://kehillah.org/wp-content/uploads/2022/08/MasterSchedule22_23.jpg" target="_blank" rel="noopener noreferrer"><span style="color: #aac">Kehillah master schedule</span></a>.</span><br>
         <span><span style="font-family: Righteous">kehillah.today</span> is not affiliated with <a href="https://kehillah.org/" target="_blank" rel="noopener noreferrer"><span style="color: #aac">kehillah.org</span></a>.</span><br>
         <span>Fonts used: <span style="font-family: Righteous">Righteous</span>, <span style="font-family: Bebas Neue">Bebas Neue</span>, and Barlow Semi Condensed.</span><br>
-        <span id="version">v0.4.9 &mdash; September 1, 2022</span><br>
+        <span id="version">v0.4.9 &mdash; September 6, 2022</span><br>
         <span></p>
         <script charset="utf-8">
             minutes = 0;
@@ -286,17 +287,17 @@
                 if (day in datedata) {
                     //console.log("Custom schedule for this date exists.")
                     if(tomorrow === false) {
-                    document.getElementById('howstheschedule').innerText = "Abnormal Schedule"
-                    window.theschedule = day
+                        document.getElementById('howstheschedule').innerText = "Abnormal Schedule"
+                        window.theschedule = day
                     } else if(tomorrow === true) {
-                    window.tomorrowschedule = day
+                        window.tomorrowschedule = day
                     }
                     return day
                 } else {
                     //console.log("Custom schedule for this date does not exist.")
                     if(tomorrow === false) {
-                    document.getElementById('howstheschedule').innerText = "Normal Schedule"
-                    window.theschedule = dotw[(new Date(day + "T00:00-08:00")).getDay()]
+                        document.getElementById('howstheschedule').innerText = "Normal Schedule"
+                        window.theschedule = dotw[(new Date(day + "T00:00-08:00")).getDay()]
                     } else if(tomorrow === true) {
                         window.tomorrowschedule = dotw[(new Date(day + "T00:00-08:00")).getDay()]
                     }
